@@ -6,6 +6,34 @@
     scroll-behavior: smooth;
   }
   
+  /* Hide all slides initially */
+  body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+.slideshow {
+    position: relative;
+    height: 50px;
+}
+.slide {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+.slide.active {
+    opacity: 1;
+}
+
+
+
+
+
+
+
   .navbar {
     background: #131313;
     height: 80px;
