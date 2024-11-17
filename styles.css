@@ -12,24 +12,27 @@
     text-align: center;
     padding: 20px;
 }
-
+body {
+  background-color: #d3bbbb; /* Changes the outer background color to black */
+  color: rgb(0, 0, 0); /* Optional: Change the default text color to white for readability */
+}
 
 /* main word container */
   /* Hero Section */
   .hero {
-    background: hsl(0, 71%, 99%);
-    background: linear-gradient(to right, #896f6f, #faf8f8);
+    background: #d3bbbb(0, 71%, 99%);
+    background: linear-gradient(to right, #d3bbbb, #d3bbbb);
     padding: 200px 0;
   }
 
   .hero__heading {
     position: absolute; /* Allows for manual positioning with top, left, etc. */
-    width: 500px; /* Fixed width */
+    width: 800px; /* Fixed width */
     height: 150px; /* Fixed height */
     top: 150px; /* Vertical position */
     left: 600px; /* Horizontal position */
-    font-size: 40px;
-    color: #333;
+    font-size: 50px;
+    color: #b93c3c;
   }
 
   .hero__description {
@@ -39,7 +42,7 @@
     top: 210px; /* Vertical position */
     left: 600px; /* Horizontal position */
     font-size: 25px;
-    color: #333;
+    color: #000000;
   }
 
 
@@ -68,7 +71,7 @@
 
   /* skills Section */
   .main {
-    background-color: #f1e8e8;
+    background-color: #d3bbbb;
     padding: 10rem 0;
   }
   
@@ -86,7 +89,7 @@
   }
   
   .main__content h1 {
-    color: #121010;  /* Set color to a blue shade */
+    color: #b93c3c;  /* Set color to a blue shade */
     font-size: 50px;  /* Set font size */
     position: relative;  /* Allows positioning the element */
     top: -100px;  /* Move it 20px down from its normal position */
@@ -97,9 +100,9 @@
 
   /* work experience Section */
   .experience {
-    background: #e9e9e9;
-    color: #050101;
-    font-size: 50px;
+    background: #d3bbbb;
+    color: #b93c3c;
+    font-size: 30px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -124,7 +127,7 @@
     flex-direction: column;
     justify-content: center;
     color: #fff;
-    background-image: linear-gradient(to right, #6e1a1a 0%, #da4141 100%);
+    background-image: linear-gradient(to right, #c77575 0%, #e6a5a5 100%);
     transition: 0.3s ease-in;
   }
   
@@ -143,11 +146,13 @@
 
 /* education*/
 .edu {
-  color: #171616;
-  font-size: 50px;
+  color: #000000;
+  background: #d3bbbb;
+  font-size: 30px;
 }
 
 .grid-container {
+  background: #d3bbbb;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(2, 1fr);  /* Create two equal-width columns */
@@ -201,7 +206,7 @@
 /* footer */
 .footer {
   padding: 20px;
-  background-color: #ede8e8;
+  background-color: #d3bbbb;
 }
 
 .footer__links {
@@ -227,7 +232,7 @@
   font-size: 18px;
   width: 30px;
   height: 30px;
-  background: #fff;
+  background: #d3bbbb;
   color: #000;
   border-radius: 50%;
   margin-right: 10px;
@@ -254,7 +259,7 @@
 
 
   .navbar {
-    background: #faf7f7;
+    background: #c16666;
     height: 80px;
     display: flex;
     justify-content: center;
@@ -268,7 +273,7 @@
   .navbar__container {
     display: flex;
     justify-content: space-between;
-    height: 80px;
+    height: 40px;
     z-index: 1;
     width: 100%;
     max-width: 1300px;
@@ -288,7 +293,7 @@
   }
   
   .navbar__links {
-    color: #080808;
+    color: #131212;
     display: flex;
     align-items: center;
     justify-content: center;
